@@ -13,7 +13,7 @@
  Dependencies (need to be installed):
 
     - Getopt (install according your linux distribution - information can be found [here](https://www.thegeekdiary.com/getopt-command-not-found/))
-    - MD DaVis 0.4.1 [1]
+    - [MD DaVis 0.4.1][1]
     - [MSMS 2.2.6.1](https://ccsb.scripps.edu/msms/)
     - [Delphi 8.5.0](http://honig.c2b2.columbia.edu/delphi)
     - [H5XL](https://github.com/echlebek/h5xl)
