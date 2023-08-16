@@ -20,6 +20,10 @@
       
 The script can be the executed in default linux CLI in bash or shell envoirnment. To run it, eihter source the script file or set an evoirnmental variable (in this example "surfcharge") It is provided with several madatory and optional flags:
       
+    surfcharge -h
+
+    script usage: Delphi_charge_per_res.sh
+
       Mandatory flags:
 
       [-s] {PDB structure - PLEASE assign protonation state and add hydrogens beforhand! F.e. by using PDB2PQR}
@@ -40,3 +44,4 @@ The script can be the executed in default linux CLI in bash or shell envoirnment
 
       [-h {help page}]
 
+As provided in the help page, for the calculation of the protein surface and charge potential, several force field parameters are avaliable. Information for atom specific charges and vdw-radii can be found in the [parameter subdirectory](Delphi_charge_per_res/parameters) for this script   
