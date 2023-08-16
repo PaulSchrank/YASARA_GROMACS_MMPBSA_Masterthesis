@@ -5,7 +5,7 @@
 
  For each script informations about the function and usability are added. Then a list of dependencies (with literature references) and flag-options (if any are given) are supplied. Additionally there are remarks concerning the programming language, the usability in several envoirments and performance (if benchmarked) is supplied. 
  
-   # Delphi_charge_per_res
+## Delphi_charge_per_res
  This automasation-script can be used to generate electrostatic surface potential for a protein of interest. The structure of the protein needs to be supplied in PDB-format.
  The surface potential is then extracted as an GAUSSIAN-CUBE map, that can used to visualize the the charge potential on the surface of the protein structure. Additionally the surface potentials are averaged per amino acid and the charge values are output as an XLSX file (can be read with excel).
  The script uses the MD DaVis programm suite [[REF]](https://academic.oup.com/bioinformatics/article/38/12/3299/6582559?login=true) to carry out the commands. In the suite it firstly uses the MSMS software [[REF]](https://pubmed.ncbi.nlm.nih.gov/8906967/) to calculate the protein surface, then Delphi software [[REF]](https://bmcbiophys.biomedcentral.com/articles/10.1186/2046-1682-5-9) to generate the potential map. Inside the suite the charge values calculated get averaged for each amino acid in the protein and stored in a HDF file. Finally these values get exported to XLSX formatting using the H5XL tool.
@@ -44,4 +44,9 @@ The script can be the executed in default linux CLI in bash or shell envoirnment
 
       [-h {help page}]
 
-As provided in the help page, for the calculation of the protein surface and charge potential, several force field parameters are avaliable. Information for atom specific charges and vdw-radii can be found in the [parameter subdirectory](Delphi_charge_per_res/parameters) for this script   
+As provided in the help page, for the calculation of the protein surface and charge potential, several force field parameters are avaliable. Information for atom specific charges and vdw-radii can be found in the [parameter subdirectory](Delphi_charge_per_res/parameters) for this script.   
+
+## GROMACS
+This automasation-script can be used convert to set up and run a protein of interest (with or without any ligand) in explicit water for 100 ns simulation time. Additionally it can extract basic data like pressure, temperature, potential energy and    
+
+### ---Work in Progress---
