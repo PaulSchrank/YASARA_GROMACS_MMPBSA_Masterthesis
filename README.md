@@ -19,6 +19,7 @@
    - [H5XL](https://github.com/echlebek/h5xl)
       
 The script can be the executed in default linux CLI in bash or shell envoirnment. To run it, eihter source the script file or set an evoirnmental variable (in this example "surfcharge") It is provided with several madatory and optional flags:
+      
       Mandatory flags:
 
       [-s] {PDB structure - PLEASE assign protonation state and add hydrogens beforhand! F.e. by using PDB2PQR}
